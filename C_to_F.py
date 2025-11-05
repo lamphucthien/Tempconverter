@@ -3,7 +3,7 @@ def c_to_f(c):
 while True:
  inp = input("Hãy nhập độ C, hoặc ấn f để dừng: ")
  if inp.lower() == 'f':
-     print("End")
+     print("Kết thúc")
      break
  try:
      C = float(inp)
